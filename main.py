@@ -15,8 +15,8 @@ import random
 import smtplib
 
 # Credentials
-MY_EMAIL = "m.yarisahyadi@gmail.com" # change this to your email
-PASSWORD = "hxkcsmkeryiwmjnj"
+MY_EMAIL = "" # change this to your email
+PASSWORD = ""
 
 # today's birthday checker
 def is_there_birthday(today_birthday):
