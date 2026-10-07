@@ -13,11 +13,12 @@ import datetime as dt
 import pandas as pd
 import random
 import smtplib
+import os
 
 # Credentials
-MY_EMAIL = "" # change this to your email
-PASSWORD = ""
-birthday_file = ""
+MY_EMAIL = os.environ.get("MY_EMAIL") # change this to your email
+PASSWORD = OS.environ.get("PASSWORD")
+birthday_file = "birthdays.csv"
 
 # today's birthday checker
 def is_there_birthday(today_birthday, date):
