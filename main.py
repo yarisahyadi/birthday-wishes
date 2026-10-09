@@ -17,7 +17,7 @@ import os
 
 # Credentials
 MY_EMAIL = os.environ.get("MY_EMAIL") # change this to your email
-PASSWORD = os.environ.get("PASSWORD")
+PASSWORD = os.environ.get("MY_PASSWORD")
 birthday_file = "birthdays.csv"
 
 # today's birthday checker
